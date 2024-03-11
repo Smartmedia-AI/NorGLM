@@ -1,0 +1,86 @@
+{
+    "algorithm": {
+        "id": 9,
+        "name": "BERT",
+        "url": "https://github.com/google-research/bert",
+        "version": null
+    },
+    "contents": [
+        {
+            "filename": "config.json",
+            "format": "json"
+        },
+        {
+            "filename": "tokenizer_config.json",
+            "format": "json"
+        },
+        {
+            "filename": "model.ckpt.index",
+            "format": "data"
+        },
+        {
+            "filename": "model.ckpt.data-00000-of-00001",
+            "format": "data"
+        },
+        {
+            "filename": "meta.json",
+            "format": "json"
+        },
+        {
+            "filename": "vocab.txt",
+            "format": "text"
+        },
+        {
+            "filename": "pytorch_model.bin",
+            "format": "data"
+        },
+        {
+            "filename": "tf_model.h5",
+            "format": "data"
+        }
+    ],
+    "corpus": [
+        {
+            "NER": false,
+            "case preserved": true,
+            "description": "Norwegian Colossal Corpus (NCC)",
+            "id": 126,
+            "language": "nor",
+            "lemmatized": false,
+            "public": true,
+            "stop words removal": null,
+            "tagger": "null",
+            "tagset": null,
+            "tokens": 5000000000,
+            "tool": null,
+            "url": "https://huggingface.co/datasets/NbAiLab/NCC"
+        },
+        {
+            "NER": false,
+            "case preserved": true,
+            "description": "C4 Web Corpus",
+            "id": 127,
+            "language": "nor",
+            "lemmatized": false,
+            "public": true,
+            "stop words removal": null,
+            "tagger": null,
+            "tagset": null,
+            "tokens": 9500000000,
+            "tool": "https://github.com/allenai/allennlp/discussions/5265",
+            "url": "https://aclanthology.org/2021.naacl-main.41/"
+        }
+    ],
+    "creators": [
+        {
+            "email": "andreku@ifi.uio.no",
+            "name": "Andrey Kutuzov"
+        }
+    ],
+    "dimensions": 768,
+    "documentation": "http://norlm.nlpl.eu",
+    "external_id": "Cased Norwegian BERT Base 2.0 (NorBERT 2)",
+    "handle": "http://vectors.nlpl.eu/repository/20/221.zip",
+    "id": 221,
+    "iterations": 3
+}
