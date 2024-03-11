@@ -8,7 +8,11 @@ Please note that some of the models and their fine-tuned versions are available 
 
 # More Information
 
-Model cards and Dataset cards can be find in [Hugginface Link](https://huggingface.co/NorGLM).
+For open source and easy access, we have put all relevant resources on Hugging Face. Click on [Hugginface Link](https://huggingface.co/NorGLM) to find detailed information on the following:
+1) The NLEBench datasets and Dataset cards
+2) NorGLMs and Model cards
+3) Lora fine-tuned adaptors of NorGLMs for different downstream tasks
+4) Evaluation tool - pretrained entailment model and model inference examples
 
 ## LICENSE
 
