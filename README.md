@@ -43,11 +43,12 @@ All of our NorGLM models and NLEBench datasets following the CC BY-NC-SA 4.0 DEE
 If you feel our work is helpful, please cite our paper:
 
 ```
-@article{liu2023nlebench+,
-  title={NLEBench+ NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian},
-  author={Liu, Peng and Zhang, Lemei and Farup, Terje Nissen and Lauvrak, Even W and Ingvaldsen, Jon Espen and Eide, Simen and Gulla, Jon Atle and Yang, Zhirong},
-  journal={arXiv preprint arXiv:2312.01314},
-  year={2023}
+@inproceedings{liu2024nlebench+,
+  title={NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian},
+  author={Liu, Peng and Zhang, Lemei and Farup, Terje and Lauvrak, Even and Ingvaldsen, Jon and Eide, Simen and Gulla, Jon Atle and Yang, Zhirong},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  pages={5543--5560},
+  year={2024}
 }
 ```
 
